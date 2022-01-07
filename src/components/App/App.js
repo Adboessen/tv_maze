@@ -1,12 +1,5 @@
 import './App.css';
-
-function Intro(props) {
-  return (
-    <p className="App-intro">
-      Our first functional component
-    </p>
-  )
-}
+import Intro from '../Intro/Intro.js'
 
 function App() {
   return (
@@ -14,7 +7,7 @@ function App() {
       <header className="App-header">
           <h1 className="App-title">TV Series List</h1>
       </header>
-      <Intro />
+      <Intro message="Here you can find all of your most loved series." />
     </div>
   );
 }
